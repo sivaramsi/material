@@ -22,7 +22,9 @@
                 android:minHeight="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
                 app:theme="@style/AppBar"/>
-
+             <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />       
             <com.rey.material.widget.TabPageIndicator
                 style="@style/TabPageIndicator"
                 android:id="@+id/main_tpi"
